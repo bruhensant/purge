@@ -1,0 +1,98 @@
+:root {
+	--zinc-50: #fafafa;
+	--zinc-100: #f4f4f5;
+	--zinc-200: #e4e4e7;
+	--zinc-300: #d4d4d8;
+	--zinc-400: #a1a1aa;
+	--zinc-500: #71717a;
+	--zinc-600: #52525b;
+	--zinc-700: #3f3f46;
+	--zinc-800: #27272a;
+	--zinc-900: #18181b;
+
+	--emerald-50: #ecfdf5;
+	--emerald-100: #d1fae5;
+	--emerald-200: #a7f3d0;
+	--emerald-300: #6ee7b7;
+	--emerald-400: #34d399;
+	--emerald-500: #10b981;
+	--emerald-600: #059669;
+	--emerald-700: #047857;
+	--emerald-800: #065f46;
+	--emerald-900: #064e3b;
+
+}
+
+* {
+	font-family: 'Plus Jakarta Sans';
+	background-color: --red-50;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	height: 96vh;
+
+	background-color: var(--zinc-200);
+
+}
+
+.card-holder {
+	display: flex;
+	flex-direction: row;
+
+	border-radius: 6px;
+
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+		rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+
+.card {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+
+	border-radius: 10px 0 0 10px;
+	padding: 20px 50px 20px 20px;
+	gap: 70px;
+
+	background-color: var(--zinc-900);
+	color: var(--zinc-50);
+}
+
+.card-stripe {
+	padding-top: 50px;
+
+	border-radius: 0 10px 10px 0;
+	padding: 27px 20px;
+
+	background-color: var(--emerald-500);
+	color: var(--emerald-50);
+}
+
+.div-date {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+
+	border-radius: 10px;
+	padding: 20px;
+	gap: 10px;
+
+	background-color: var(--zinc-800);
+}
+
+h2 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	font-size: 24px;
+}
